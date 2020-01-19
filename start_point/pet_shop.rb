@@ -33,27 +33,8 @@ def find_pet_by_name (pet_shop, pet_name)
       return pet
     end
   end
+  return nil
 end
-
-# def find_pet_by_name (pet_shop, pet_name)
-#   for pet in pet_shop[:pets]
-#     if pet_name == pet[:name]
-#       return nil
-#     end
-#   end
-# end
-
-
-def remove_pet_by_name(pet_shop, remove_pet_by_name)
-  for pet in pet_shop[:pets]
-    if remove_pet_by_name == pet[:name].upshift
-  end
-end
-end
-
-
-
-
 
 
 
